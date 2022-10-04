@@ -1,0 +1,24 @@
+.Error
+{
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.503);
+}
+
+
+.Error-description
+{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 15px;
+    background-color: rgb(159, 58, 58);
+}
